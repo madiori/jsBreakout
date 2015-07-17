@@ -1,0 +1,62 @@
+body{
+    background-color:#ecf0f1;
+}
+
+form{
+    display:block;
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    margin-top:100px;
+}
+
+fieldset, input[type=text]{
+    border: 0px solid #95a5a6;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 1px 1px #95a5a6 inset;
+}
+
+fieldset{
+    display: block;
+    margin:auto;
+    width: 300px;
+    text-align: center;
+}
+
+label{
+    Color: #95a5a6;
+}
+
+input[type=text]{
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 250px;
+    text-align: center;
+    height: 50px;
+    font-size: 1.2em;
+    Color: #95a5a6;
+}
+
+input[type=submit]{
+    border: 1px solid #95a5a6;
+    background-color: #95a5a6;
+    border-radius: 0px 0px 10px 10px;
+    color: #ecf0f1;
+    display: block;
+    width: 250px;
+    margin: auto;
+    height:50px;
+    font-size: 1.2em;
+}
+
+#barreBalle, #hud, #briques{
+    position: absolute;
+    display: block;
+    margin: auto;
+}
+
+#barreBalle{background-color: black;}
+/*#hud{background-color: yellow;}*/
+/*#briques{background-color: red;}*/
